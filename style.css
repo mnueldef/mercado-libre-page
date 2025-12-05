@@ -1,0 +1,25 @@
+body{
+    --yellow-color:#fff159;
+    --white-color:#fff;
+}
+
+body,span,div,input,img{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: var(--yellow-color);
+   
+}
+.principalNav{
+    display: flex;
+}
+.principalNav--containerALogo{
+   width: 4rem;
+   
+}
+.principalNav--containerLogo--a__img{
+    max-width: 100%;
+    
+}
